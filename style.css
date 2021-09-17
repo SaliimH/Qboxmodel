@@ -1,0 +1,102 @@
+#nav {
+ 
+    background-color: rgb(44, 44, 44);
+    margin: auto;
+    height: 30px;
+    text-align: left;
+    list-style: none;
+}
+
+
+ul li{
+    display: inline-block;
+    border: solid blue;
+    margin-left:15;
+}
+a{
+    text-decoration: none;
+    color: honeydew;
+
+}
+
+a:hover{
+    color: hotpink;
+}
+
+.carousel {
+    padding: 150px;
+    border: solid red;
+}
+
+.Fel{
+    text-align: center;
+    padding: 30px;
+    border:  solid green;
+}
+
+
+#art{}    
+article{
+    height: 100px;
+    width: 100%;
+    padding: 150px;
+    margin-bottom: 150px;
+    margin: 10px;
+
+}
+
+
+
+article:nth-child(1){
+    display: inline-block;
+    height: 50px;
+    width: 30px;
+    background-color: rgb(155, 55, 41);
+   
+}
+#art{
+    text-align: center;
+    margin-bottom: 200px;
+}
+article:nth-child(2){
+    display: inline-block;
+    height: 50px;
+    width: 30px;
+    background-color: rgb(190, 188, 43);
+
+}
+
+article:nth-child(3){
+    display: inline-block;
+    height: 50px;
+    width: 30px;
+    background-color: rgb(0, 165, 173);
+
+}
+
+
+.ct{
+    border-top: solid black;
+    padding: 10px;
+}
+
+
+
+input{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+input:nth-child(3){
+border: solid 2px gray;
+}
+textarea{
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 80%;
+    border: solid 2px rgb(0, 0, 0);
+
+}
